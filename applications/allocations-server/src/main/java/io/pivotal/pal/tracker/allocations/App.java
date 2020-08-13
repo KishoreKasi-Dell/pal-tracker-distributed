@@ -17,6 +17,7 @@ import java.util.TimeZone;
 public class App {
 
     public static void main(String[] args) {
+        System.out.println("******Invoking allocation server*****");
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         SpringApplication.run(App.class, args);
     }
